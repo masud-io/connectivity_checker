@@ -16,7 +16,12 @@ Add the package to your pubspec.yaml:
 
 ```yaml
 dependencies:
-  connectivity_checker: ^0.1.0
+  connectivity_checker:
+  git:
+    url: https://github.com/mmh-masud-03/connectivity_checker.git
+    ref: master
+
+
 ```
 
 Then run:
