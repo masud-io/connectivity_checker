@@ -1,8 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/services.dart';
-import 'package:flutter/services.dart';
-import 'connectivity_checker_platform_interface.dart';
+
 
 // Add this enum for connectivity status
 enum ConnectivityStatus {

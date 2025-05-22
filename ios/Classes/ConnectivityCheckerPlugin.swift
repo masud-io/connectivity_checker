@@ -8,8 +8,8 @@ public class ConnectivityCheckerPlugin: NSObject, FlutterPlugin, FlutterStreamHa
   private var networkMonitor: NWPathMonitor?
 
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "com.example.connectivity_checker", binaryMessenger: registrar.messenger())
-    let eventChannel = FlutterEventChannel(name: "com.example.connectivity_checker/connectivity_status", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "connectivity_checker", binaryMessenger: registrar.messenger())
+    let eventChannel = FlutterEventChannel(name: "connectivity_checker/connectivity_status", binaryMessenger: registrar.messenger())
     let instance = ConnectivityCheckerPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
     eventChannel.setStreamHandler(instance)
