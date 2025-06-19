@@ -1,7 +1,8 @@
 name: connectivity_checker
-description: "A new Flutter plugin project."
+description: "A Flutter package for checking internet connectivity on Android and iOS platforms."
 version: 0.0.1
-homepage:
+homepage: https://github.com/masud-io/connectivity_checker
+repository: https://github.com/masud-io/connectivity_checker.git
 
 environment:
   sdk: ^3.5.4
