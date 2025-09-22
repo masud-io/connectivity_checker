@@ -18,7 +18,7 @@ Add the package to your pubspec.yaml:
 dependencies:
   connectivity_checker:
     git:
-      url: https://github.com/mmh-masud-03/connectivity_checker.git
+      url: https://github.com/masud-io/connectivity_checker.git
       ref: master
 
 
